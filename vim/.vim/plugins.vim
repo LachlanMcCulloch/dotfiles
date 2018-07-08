@@ -27,5 +27,7 @@ endif
 call plug#begin('~/.vim/plugged')
 
 Plug 'tomasiser/vim-code-dark'
+Plug 'airblade/vim-gitgutter'
+Plug 'vim-airline/vim-airline'
 
 call plug#end()
