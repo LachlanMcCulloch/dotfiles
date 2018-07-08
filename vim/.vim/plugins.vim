@@ -8,7 +8,7 @@
 "        ____\//\\\_____\/\\\_\/\\\__\/\\\__\/\\\_\/\\\__________\///\\\\\\\\_ 
 "         _____\///______\///__\///___\///___\///__\///_____________\////////_
 "
-" Author: Wildlachii
+" Author: LachlanMcCulloch
 " Code:   
 "
 "
@@ -29,5 +29,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'tomasiser/vim-code-dark'
 Plug 'airblade/vim-gitgutter'
 Plug 'vim-airline/vim-airline'
+Plug 'scrooloose/nerdtree'
 
 call plug#end()
