@@ -17,6 +17,7 @@ let configs = [
 \   "general",
 \   "ui",
 \   "plugins",
+\   "plugin-settings",
 \]
 
 for file in configs
