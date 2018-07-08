@@ -179,5 +179,5 @@ bar {
 exec --no-startup-id feh --bg-scale ~/Pictures/13-6y5DJ0E.jpg
 
 # Lock Screen
-bindsym $mod+F12 exec --no-startup-id lock.sh
-exec --no-startup-id xautolock -time 1 -locker lock.sh &
+bindsym $mod+F12 exec --no-startup-id ~/bin/lock.sh
+exec --no-startup-id xautolock -time 1 -locker ~/bin/lock.sh -notify 5 -notifier ~/bin/screen-fader.sh &
