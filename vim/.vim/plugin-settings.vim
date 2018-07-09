@@ -15,6 +15,7 @@
 " codedark https://github.com/tomasiser/vim-code-dark
 colorscheme codedark
 
+" Vim Gitgutter
 " speed optimizations
 let g:gitgutter_realtime = 1
 let g:gitgutter_eager = 1
@@ -33,7 +34,15 @@ highlight GitGutterChange ctermfg=yellow ctermbg=234
 highlight GitGutterDelete ctermfg=red ctermbg=234
 highlight GitGutterChangeDelete ctermfg=red ctermbg=234
 
+" Vim airline
+" enable buffer line
+let g:airline#extensions#tabline#enabled = 1
+" buffer visual separators
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+
 " NERDTree
 " Open NERDtree to specific directory
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | endif
+

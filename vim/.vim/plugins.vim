@@ -28,6 +28,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'tomasiser/vim-code-dark'
 Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'scrooloose/nerdtree'
 
