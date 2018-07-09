@@ -8,6 +8,7 @@ https://github.com/xero/dotfiles
 This guide is purely for my own reference, but if you happened to stumble upon it and are interested in trying to make sense of my ramblings, I'm not going to stop you.
 
 i3		> Windows Manager
+
 vim		> Vim Configuration
 
 # GNU Stow
