@@ -33,3 +33,7 @@ highlight GitGutterChange ctermfg=yellow ctermbg=234
 highlight GitGutterDelete ctermfg=red ctermbg=234
 highlight GitGutterChangeDelete ctermfg=red ctermbg=234
 
+" NERDTree
+" Open NERDtree to specific directory
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | endif
