@@ -16,6 +16,7 @@
 " must be first, because it changes other options as a side effect
 set nocompatible
 
+
 " security
 set modelines=0
 
@@ -67,8 +68,9 @@ endif
 " use indents of 4 spaces
 set shiftwidth=4
 
-" tabs are tabs
-set noexpandtab
+" tabs are spaces
+set expandtab
+
 
 " an indentation every four columns
 set tabstop=4
