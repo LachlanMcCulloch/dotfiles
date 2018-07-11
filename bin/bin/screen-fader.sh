@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SEC=5
+SEC=10
 [ $# -eq 1 ] && SEC=$1
 FRAMES=100
 SLEEP=`echo $SEC / $FRAMES | bc -l`
