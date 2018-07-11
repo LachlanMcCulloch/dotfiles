@@ -37,7 +37,7 @@ set relativenumber
 set showcmd
 
 " no line wrapping
-set nowrap
+" set nowrap
 
 " no folding
 set nofoldenable

@@ -26,11 +26,15 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
+" UI
 Plug 'tomasiser/vim-code-dark'
+Plug 'vim-airline/vim-airline'
+" GIT
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
-Plug 'vim-airline/vim-airline'
+" Functionality
 Plug 'scrooloose/nerdtree'
 Plug 'kien/ctrlp.vim'
+Plug 'scrooloose/nerdcommenter'
 
 call plug#end()
