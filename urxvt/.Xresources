@@ -1,0 +1,23 @@
+! Color Scheme from xero https://github.com/xero/dotfiles/blob/master/urxvt/miasma.Xcolors
+#include </home/lachlan/sourcerer.Xcolors>
+
+! Fonts
+urxvt*font: xft:gohufont:size=14:antialias=true
+
+urxvt*boldFont: 
+urxvt*italicFont: 
+urxvt*bolditalicFont: 
+
+urxvt*letterSpace: 2
+urxvt*lineSpace: 0
+
+! interface
+urxvt*scrollBar: false
+urxvt*transparent: false
+urxvt*internalBorder: 10
+urxvt*borderColor: #1c1c1c
+urxvt*borderLess:false
+
+! misc
+urxvt.saveLines: 9999
+urxvt.iso14755: false

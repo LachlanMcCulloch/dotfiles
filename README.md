@@ -85,3 +85,9 @@ stow vim
 ```
 
 On first run of vim, it will start the package installed `Plugged`. To run this after updating the `plugin.vim` run `:PlugInstall` from within vim/nvim.
+
+# Fonts
+stow fonts
+xrdb ~/.Xresources
+
+# urxvt
