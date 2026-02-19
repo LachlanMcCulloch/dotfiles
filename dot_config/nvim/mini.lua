@@ -28,7 +28,10 @@ end
 vim.keymap.set("n", "<leader>o", function()
   local MiniFiles = require("mini.files")
 
-  local path = vim.api.nvim_buf_get_name(0)
+  if MiniFiles.close() then return end
+
+  local bufname = vim.api.nvim_buf_get_name(0)
+  local path = vim.uv.fs_stat(bufname) and bufname or vim.fn.getcwd()
   MiniFiles.open(path, false)
 
   -- Wait a tiny bit before revealing cwd
